@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeueBold.woff2') format('woff2'),
+        url('HelveticaNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeueLight.woff2') format('woff2'),
+        url('HelveticaNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+} 
+
+body{ 
+    font-family: HelveticaNeue;
+    margin: 0 35px;
+ }
+.table-noboder{border:0!important}.m-0{margin:0}.brand-logo{width:140px}.w-100{width:100%}.w-50{width:50%}
+.doct-details p{margin:4px 0;font-size:15px}.doct-details h2{margin:4px 0}.brand-sec{text-align:right}.brand-sec img{margin-right:30px}
+table.with-border{margin-top:43px}table.with-border,table.with-border td{border:1px solid;border-collapse:collapse;padding-left:5px}
+.ab{width:49%;float:left}p.ab{margin:5px 0}tr.h-50{height:60px}tr.h-50 td{vertical-align:top}.ptn-name{background:#efefef}
+.medicne-details{display:inline-flex;width:100%;margin-top:25px;border-top:1px solid;border-bottom:1px solid;border-left:1px solid #ccc;border-right:1px solid #ccc}
+.middle-border{border-right:1pt solid}.medicne-details td,.test-details td{padding-left:20px}.text-right{text-align:right}.rmp-signature{margin-top:70px;font-size: 11pt; text-align:right;font-family: serif;}
+p.note{font-family: serif;
+text-align: center;
+position: fixed;
+margin-top: 40px;
+width: 100%;
+bottom: 0;
+font-size: 11.5pt;}
+.medicne-details b {
+     font-size: 13.28px;
+ }
+
+ .medicne-details p {
+     font-size: 13.28px;
+     font-weight: 300;
+     font-family: Helvetica;
+ }
+ .doct-details b {
+font-family: HelveticaNeue;
+}
+.brand-content p {
+font-size: 12pt;
+font-weight: 300;
+}
+.brand-content h4 {
+font-size: 12pt;
+}
+.doct-details p {
+font-weight: 300;
+font-family: Helvetica;
+}
+.patient-details td {
+font-size: 10pt;
+}
+.medicine-details ul{
+padding-left: 0;
+list-style-type: none;
+}
+.last-line td {
+padding-top: 6px;
+}
+.medicne-details{
+min-height: 300px;
+}
+.medicne-details.spl-istruct {
+min-height: 109px;
+}
